@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Development testing tool</title>
+	</head>
+	<body>
+		<h1>Resize (fit)</h1>
+		<form method="post" action="/resize" enctype="multipart/form-data">
+			<div>
+				<input type="file" name="image">
+			</div>
+
+			<div>
+				Width: <input type="text" name="width">
+			</div>
+
+			<div>
+				Height: <input type="text" name="height">
+			</div>
+
+			<div>
+				<button type="submit">
+					Upload
+				</button>
+			</div>
+		</form>
+
+		<h1>"Crop"</h1>
+		<form method="post" action="/crop" enctype="multipart/form-data">
+			<div>
+				<input type="file" name="image">
+			</div>
+
+			<div>
+				Width: <input type="text" name="width">
+			</div>
+
+			<div>
+				Height: <input type="text" name="height">
+			</div>
+
+			<div>
+				<button type="submit">
+					Upload
+				</button>
+			</div>
+		</form>
+	</body>
+</html>
