@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/toitoi-co/toitoi-image#readme",
   "dependencies": {
+    "babel-cli": "^6.6.5",
     "bluebird": "^3.3.4",
     "concat-stream": "^1.5.1",
     "express": "^4.13.4",
