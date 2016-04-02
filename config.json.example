@@ -1,3 +1,7 @@
 {
-	"connectionKey": "uQ4A8vslSw0vhXy5pYjNG795rF5NkhpjDUq1KC44mIzZOH6Wsr8xJ989bdgENvo"
+	"connectionKey": "uQ4A8vslSw0vhXy5pYjNG795rF5NkhpjDUq1KC44mIzZOH6Wsr8xJ989bdgENvo",
+	"listen": {
+		"host": "127.0.0.1",
+		"port": 6001
+	}
 }

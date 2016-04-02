@@ -142,4 +142,4 @@ app.use(function(err, req, res, next) {
 	res.status(500).send("Something went wrong.")
 })
 
-app.listen(6001);
+app.listen(config.listen.port, config.listen.host);
